@@ -1,0 +1,34 @@
+footer{
+    .container{
+        padding-top: 60px;
+        background-color: #cbcfd3;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .footer-item{
+            display: flex;
+            padding-bottom: 10px;
+        }
+
+        .footer-item li{
+            padding-left: 10px;
+            padding-right: 10px;
+            
+            a{
+                color: #0d6efd;
+            }
+        }
+
+        .footer-right{
+            .fa-brands{
+                font-size: 30px;
+                color: #007bff;
+            }
+        }
+    }
+}

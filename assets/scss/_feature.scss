@@ -1,0 +1,44 @@
+#feature{
+    background-color: #f8f9fa;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    .container{
+        width: 70%;
+
+        .feature-items{
+            display: flex;
+            justify-content: space-around;
+
+            .feature-item-one{
+                width: 25%;
+                text-align: center;
+
+                .item-one-logo i{
+                    font-size: 70px; 
+                    color: #0d6efd;   
+                }
+
+                .item-one-logo{
+                    padding: 10px;
+
+                }
+
+                .item-one-content h1{
+                    font-size: 25px;
+                    padding-bottom: 10px;
+                }
+
+                .item-one-content p{
+                    font-size: 17px;
+                }
+
+            }
+
+
+        }
+    }
+}

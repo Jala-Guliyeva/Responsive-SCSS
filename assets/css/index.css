@@ -1,0 +1,293 @@
+@media screen and (max-width: 1000px) {
+  main #showcase .showcase-item-one {
+    display: block;
+    height: 1000px;
+  }
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav {
+  background-color: #f8f9fa;
+}
+
+header .container {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+header .navbar {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar a {
+  font-size: 20px;
+  color: black;
+}
+
+header .navbar button {
+  color: white;
+  background-color: #0d6efd;
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+main #page-intro {
+  background: url(../image/bg-masthead.jpg);
+  background-size: cover;
+  height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main #page-intro .container {
+  width: 50%;
+  font-size: 30px;
+}
+
+main #page-intro .container .intro-head {
+  padding: 40px;
+}
+
+main #page-intro .container #input-email {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 20px;
+}
+
+main #page-intro .container .btn {
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #007bff;
+  opacity: 0.4;
+}
+
+main #page-intro .container .intro-head {
+  color: white;
+}
+
+main #page-intro .container::before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+main #feature {
+  background-color: #f8f9fa;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main #feature .container {
+  width: 70%;
+}
+
+main #feature .container .feature-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main #feature .container .feature-items .feature-item-one {
+  width: 25%;
+  text-align: center;
+}
+
+main #feature .container .feature-items .feature-item-one .item-one-logo i {
+  font-size: 70px;
+  color: #0d6efd;
+}
+
+main #feature .container .feature-items .feature-item-one .item-one-logo {
+  padding: 10px;
+}
+
+main #feature .container .feature-items .feature-item-one .item-one-content h1 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+main #feature .container .feature-items .feature-item-one .item-one-content p {
+  font-size: 17px;
+}
+
+main #showcase .showcase-item-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+}
+
+main #showcase .showcase-item-one .showcase-img {
+  width: 50%;
+}
+
+main #showcase .showcase-item-one .showcase-img img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+main #showcase .showcase-item-one .showcase-content {
+  width: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+main #showcase .showcase-item-one .content-items h1 {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+main #showcase .showcase-item-one .content-items p {
+  font-size: 20px;
+}
+
+main #people {
+  background-color: #f8f9fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #people .container {
+  width: 80%;
+}
+
+main #people .container .people-head {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main #people .container .people-about {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main #people .container .people-one {
+  width: 20%;
+}
+
+main #people .container .people-img {
+  border-radius: 50%;
+}
+
+main #people .container .people-img img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+main #people .container .people-content {
+  padding-top: 10px;
+  text-align: center;
+}
+
+main #people .container .people-content p {
+  padding-top: 10px;
+}
+
+footer .container {
+  padding-top: 60px;
+  background-color: #cbcfd3;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .footer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+footer .container .footer-item li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer .container .footer-item li a {
+  color: #0d6efd;
+}
+
+footer .container .footer-right .fa-brands {
+  font-size: 30px;
+  color: #007bff;
+}

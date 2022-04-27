@@ -1,0 +1,55 @@
+
+main{
+    #page-intro{
+        background: url(../image/bg-masthead.jpg);
+        background-size: cover;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .container{
+            width: 50%;
+            font-size: 30px;
+            
+
+            .intro-head{
+                padding: 40px;
+            }
+
+            #input-email{
+                padding: 15px;
+                border: none;
+                border-radius: 5px;
+                width: 70%;
+                font-size: 20px;
+            }
+
+            .btn{
+                border: none;
+                font-size: 20px;
+                padding: 15px;
+                border-radius: 5px;
+                background-color: #007bff;
+                opacity: 0.4;
+            }
+
+            .intro-head{
+                color: white ; 
+            }
+        }
+
+        .container::before{
+            content: "";
+            position: absolute;
+            background-color: #1c375e;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+        }
+
+    }
+}
