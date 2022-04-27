@@ -13,13 +13,16 @@ footer{
         .footer-item{
             display: flex;
             padding-bottom: 10px;
+           
         }
 
         .footer-item li{
             padding-left: 10px;
             padding-right: 10px;
             
+            
             a{
+                
                 color: #0d6efd;
             }
         }
@@ -27,7 +30,17 @@ footer{
         .footer-right{
             .fa-brands{
                 font-size: 30px;
+                margin-left: 10px;
                 color: #007bff;
+            }
+            .fa-facebook{
+                margin-right: 20px;
+            }
+            .fa-twitter{
+                margin-right: 20px;
+            }
+            .fa-instagram{
+                margin-right: 20px;
             }
         }
     }

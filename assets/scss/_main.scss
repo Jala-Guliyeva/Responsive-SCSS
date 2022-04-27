@@ -12,11 +12,17 @@ main{
         .container{
             width: 50%;
             font-size: 30px;
+            color: #fff;
             
 
-            .intro-head{
+            .intro-main{
                 padding: 40px;
+                color: white ; 
+                h1{
+                    color: #fff;
+                }
             }
+            
 
             #input-email{
                 padding: 15px;
@@ -35,9 +41,7 @@ main{
                 opacity: 0.4;
             }
 
-            .intro-head{
-                color: white ; 
-            }
+           
         }
 
         .container::before{

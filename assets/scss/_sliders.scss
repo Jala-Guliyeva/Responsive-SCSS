@@ -1,21 +1,21 @@
 
-    #showcase{
-        .showcase-item-one{
+    #sliders-item{
+        .slider-item-one{
             display: flex;
             height: 500px;
             
 
-            .showcase-img {
+            .slider-img {
                 width: 50%;
                 
             }
-            .showcase-img img{
+            .slider-img img{
                 width: 100%;
                 height: 100%;
                 overflow: hidden;
             }
 
-            .showcase-content{
+            .slider-content{
                 width: 50%;
                 background-color: white;
                 display: flex;
